@@ -1,8 +1,10 @@
 # YouTube Viral SEO — an agentic AI skill
 
-An AI-agent skill that takes a finished video (or a script, or just a title idea) and does the work of a YouTube growth analyst: it **analyzes the video, scores it, and hands back a complete upload pack** — ranked titles, an SEO description, tags and hashtags — tuned to how the YouTube algorithm actually promotes content: click-through rate × average view duration on long-form, and swipe-through rate, percentage viewed and loopability on Shorts.
+An AI-agent skill for creators building a **career** on YouTube, not just uploading to it. At its core it does the work of a growth analyst on every video: it **analyzes the video, scores it, and hands back a complete upload pack** — ranked titles, an SEO description, tags and hashtags — tuned to how the YouTube algorithm actually promotes content: click-through rate × average view duration on long-form, and swipe-through rate, percentage viewed and loopability on Shorts.
 
-No view promises. What it maximizes is the odds.
+Around that core, the skill runs the whole career system: channel foundations, a content pipeline that never starts from a blank page, growth engines beyond single videos, a monetization path, channel protection, and the sustainability habits that keep creators from quitting in the flat months.
+
+No view promises, no income promises. What it maximizes is the odds.
 
 ## What it does
 
@@ -53,9 +55,19 @@ Titles, ranked:
 
 The full pack (description, tags within budget, three hashtags, pinned comment — *"Which lost invention do you wish had survived?"* — cover frame, posting window) follows the Output shape above.
 
+## The career system around the video
+
+- **Channel foundations** — a three-legged niche test (demand × differentiation × a hundred videos of depth), the one-viewer promise, complete channel identity (including a banner that survives the phone crop), and a persistent `channel-profile.md` the agent maintains across sessions.
+- **A content system, not random uploads** — two or three content pillars, an idea bank fed by comments, search demand and niche outliers, deliberate series design, a holdable cadence, and batched production with a finished-video buffer.
+- **Growth beyond single videos** — the Shorts/search → series → returning-viewer funnel, balancing the search and browse engines, cross-platform repurposing, right-sized collaborations, and community habits that make viewers return on purpose.
+- **Monetization** — the Partner Program gates as milestones, a revenue stack ordered by what a small channel can actually reach (ads → affiliates → products → sponsors), sponsor readiness with provable numbers, and honest career-money hygiene.
+- **Protection** — copyright and Content ID as a hard system, the reused-content bar faceless and AI-assisted channels must clear, and account security (2FA, permissions, phishing, backups) treated like the business it is.
+- **Sustainability** — a monthly career review ritual, slump diagnosis instead of panic pivots, evidence thresholds for changing direction, and burnout protection as career infrastructure.
+
 ## Guardrails
 
 - **Never writes metadata the video doesn't support.** Misleading titles and tags violate YouTube policy, destroy retention, and train the algorithm to bury a channel.
+- **Never advises buying subscribers, views, watch hours or engagement** — botted or incentivized traffic violates platform terms, poisons every later analytics decision, and can end monetization permanently.
 - **No engagement bait, no keyword stuffing**, anywhere.
 - **Scores are not view predictions** — they compare the video against what the algorithm rewards, and the skill says so plainly.
 - If the video itself is weak, the skill says that too — and names the one change that would matter most, instead of hiding it under strong SEO.
@@ -83,6 +95,7 @@ Then ask your agent to use it: *"Run the YouTube Viral SEO skill on this video"*
 | --- | --- |
 | `SKILL.md` | The skill itself — the full analysis and packaging playbook the agent follows. |
 | `skill.yaml` | Skill descriptor (name, title, description, category). |
+| `references/niches.md` | The niche catalog: 26 families and every major sub-niche, with relative RPM tier, competition and faceless viability. |
 | `README.md` | This file. |
 | `LICENSE` | MIT license. |
 
